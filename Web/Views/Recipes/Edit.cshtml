@@ -1,0 +1,90 @@
+﻿@model Home.BO.RecipeEditor
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h2>Edit</h2>
+
+<h4>RecipeEditor</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Key" class="control-label"></label>
+                <input asp-for="Key" class="form-control" />
+                <span asp-validation-for="Key" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Concurrency" class="control-label"></label>
+                <input asp-for="Concurrency" class="form-control" />
+                <span asp-validation-for="Concurrency" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Description" class="control-label"></label>
+                <input asp-for="Description" class="form-control" />
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="KeyWords" class="control-label"></label>
+                <input asp-for="KeyWords" class="form-control" />
+                <span asp-validation-for="KeyWords" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PreparationMinutes" class="control-label"></label>
+                <input asp-for="PreparationMinutes" class="form-control" />
+                <span asp-validation-for="PreparationMinutes" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PreparationTime" class="control-label"></label>
+                <input asp-for="PreparationTime" class="form-control" />
+                <span asp-validation-for="PreparationTime" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CookingMinutes" class="control-label"></label>
+                <input asp-for="CookingMinutes" class="form-control" />
+                <span asp-validation-for="CookingMinutes" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CookingTime" class="control-label"></label>
+                <input asp-for="CookingTime" class="form-control" />
+                <span asp-validation-for="CookingTime" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TotalMinutes" class="control-label"></label>
+                <input asp-for="TotalMinutes" class="form-control" />
+                <span asp-validation-for="TotalMinutes" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TotalTime" class="control-label"></label>
+                <input asp-for="TotalTime" class="form-control" />
+                <span asp-validation-for="TotalTime" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NumberOfServings" class="control-label"></label>
+                <input asp-for="NumberOfServings" class="form-control" />
+                <span asp-validation-for="NumberOfServings" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ServingSize" class="control-label"></label>
+                <input asp-for="ServingSize" class="form-control" />
+                <span asp-validation-for="ServingSize" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

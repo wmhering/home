@@ -1,0 +1,81 @@
+﻿@model IEnumerable<Home.BO.RecipeSummary>
+
+@{
+    ViewData["Title"] = "Recipes";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+
+<table class="table">
+    <thead>
+        <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Key)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Concurrency)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Name)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Description)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.KeyWords)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.PreparationTime)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.CookingTime)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.TotalTime)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Servings)
+                </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Key)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Concurrency)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.KeyWords)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PreparationTime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CookingTime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TotalTime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Servings)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

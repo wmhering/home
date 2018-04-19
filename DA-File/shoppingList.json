@@ -1,0 +1,37 @@
+﻿[
+  {
+    "quantity": 1,
+    "description": "Water Bottle",
+    "purchased": false
+  },
+  {
+    "quantity": 1,
+    "description": "Fish Tank Air Pump",
+    "purchased": false
+  },
+  {
+    "quantity": 1,
+    "description": "Soy Sauce",
+    "purchased": true
+  },
+  {
+    "quantity": 2,
+    "description": "Enchilada Sauce",
+    "purchased": true
+  },
+  {
+    "quantity": 3,
+    "description": "Black Beans",
+    "purchased": true
+  },
+  {
+    "quantity": 1,
+    "description": "White Vinegar",
+    "purchased": true
+  },
+  {
+    "quantity": 1,
+    "description": "Olive Oil",
+    "purchased": true
+  }
+]

@@ -1,0 +1,261 @@
+﻿[
+  {
+    "key": 1,
+    "concurrency": "",
+    "name": "3 Bean Taco's",
+    "description": "This recipe also makes 4 half cup servings of 3 bean salad. This is enough to double the taco recipe if desired.",
+    "keywords": "vegan,vegetarian",
+    "sections": [
+      {
+        "key": 0,
+        "ordinal": 1,
+        "name": "3 Bean Salad",
+        "description": "This is an alternate to the typical 3 bean salad with North African flair. If you'd like a little heat, replace to pablano pepper wit 3 jalapino peppers.",
+        "ingredients": [
+          {
+            "key": 0,
+            "ordinal": 1,
+            "quantity": 1,
+            "unit": "15 oz can",
+            "name": "Black Beans",
+            "preparation": ""
+          },
+          {
+            "key": 0,
+            "ordinal": 2,
+            "quantity": 1,
+            "unit": "15 oz can",
+            "name": "Pinto Beans",
+            "preparation": ""
+          },
+          {
+            "key": 0,
+            "ordinal": 3,
+            "quantity": 1,
+            "unit": "15 oz can",
+            "name": "Chick Peas",
+            "preparation": ""
+          },
+          {
+            "key": 0,
+            "ordinal": 4,
+            "quantity": 1,
+            "unit": "",
+            "name": "Pablano Pepper",
+            "preparation": ""
+          },
+          {
+            "key": 0,
+            "ordinal": 5,
+            "quantity": 1,
+            "unit": "",
+            "name": "Onion (Medium)",
+            "preparation": ""
+          },
+          {
+            "key": 0,
+            "ordinal": 6,
+            "quantity": 3,
+            "unit": "Tbsp",
+            "name": "Balsamic Vinegar",
+            "preparation": ""
+          },
+          {
+            "key": 0,
+            "ordinal": 7,
+            "quantity": 3,
+            "unit": "Tbsp",
+            "name": "Olive Oil",
+            "preparation": ""
+          },
+          {
+            "key": 0,
+            "ordinal": 8,
+            "quantity": 1,
+            "unit": "Tsp",
+            "name": "Celery seed",
+            "preparation": ""
+          },
+          {
+            "key": 0,
+            "ordinal": 9,
+            "quantity": 1,
+            "unit": "Tsp",
+            "name": "Cumin",
+            "preparation": ""
+          }
+        ],
+        "steps": [
+          {
+            "key": 0,
+            "ordinal": 1,
+            "description": "Drain and rinse beans and put them in a covered container. Finely dice pepper and onion and add them to the beans. Add oil, vinegar and spices to the beans and stir. Cover container and store in refrigerator for 8 to 24 hours."
+          }
+        ],
+        "preparationMinutes": 10,
+        "cookingMinutes": 0,
+        "totalMinutes": 490
+      },
+      {
+        "key": 0,
+        "ordinal": 2,
+        "name": "The Taco's",
+        "description": "",
+        "ingredients": [
+          {
+            "key": 0,
+            "ordinal": 1,
+            "quantity": 1,
+            "unit": "C",
+            "name": "Salsa",
+            "preparation": ""
+          },
+          {
+            "key": 0,
+            "ordinal": 2,
+            "quantity": 2.5,
+            "unit": "C",
+            "name": "Cabbage",
+            "preparation": "jullienned"
+          },
+          {
+            "key": 0,
+            "ordinal": 3,
+            "quantity": 2,
+            "unit": "C",
+            "name": "3 Bean Salad",
+            "preparation": ""
+          },
+          {
+            "key": 0,
+            "ordinal": 4,
+            "quantity": 2,
+            "unit": "Tbsp",
+            "name": "Chipotle Tabasco Sauce",
+            "preparation": ""
+          },
+          {
+            "key": 0,
+            "ordinal": 5,
+            "quantity": 2,
+            "unit": "",
+            "name": "Avocados",
+            "preparation": ""
+          },
+          {
+            "key": 0,
+            "ordinal": 6,
+            "quantity": 12,
+            "unit": "",
+            "name": "Soft Corn Taco Shells",
+            "preparation": ""
+          }
+        ],
+        "steps": [
+          {
+            "key": 0,
+            "ordinal": 1,
+            "description": "Combine salsa, cabbage, bean sallad and tabasco sauce. Cover and simmer over medium heat until cabbage is tender and excess liquid has evaporated. you may need to add water or balsamic vinegar if liqued evaporates befor cabage is tender."
+          },
+          {
+            "key": 0,
+            "ordinal": 2,
+            "description": "Dice avocados. Top corns taco shells with filling and diced avocados."
+          }
+        ],
+        "preparationMinutes": 10,
+        "cookingMinutes": 20,
+        "totalMinutes": 30
+      }
+    ],
+    "preparationMinutes": 20,
+    "cookingMinutes": 20,
+    "totalMinutes": 520,
+    "numberOfServings": 4
+  },
+  {
+    "key": 2,
+    "concurrency": "",
+    "name": "Bannana Bread",
+    "description": "",
+    "keywords": "",
+    "ingredients": [
+      {
+        "key": 0,
+        "ordinal": 1,
+        "quantity": 1,
+        "unit": "C",
+        "name": "White Sugar"
+      },
+      {
+        "key": 0,
+        "ordinal": 2,
+        "quantity": 1,
+        "unit": "C",
+        "name": "Butter"
+      },
+      {
+        "key": 0,
+        "ordinal": 3,
+        "quantity": 2,
+        "name": "Large Egg"
+      },
+      {
+        "key": 0,
+        "ordinal": 4,
+        "quantity": 3,
+        "name": "Ripe Bananas",
+        "preparation": "mashed"
+      },
+      {
+        "key": 0,
+        "ordinal": 5,
+        "quantity": 1,
+        "unit": "Tsp",
+        "name": "Baking Soda"
+      },
+      {
+        "key": 0,
+        "ordinal": 6,
+        "quantity": 2,
+        "unit": "C",
+        "name": "All Purpose Flour"
+      },
+      {
+        "key": 0,
+        "ordinal": 7,
+        "quantity": 0.5,
+        "unit": "C",
+        "name": "Walnuts",
+        "preparation": "chopped"
+      }
+    ],
+    "steps": [
+      {
+        "key": 0,
+        "ordinal": 1,
+        "description": "Pre heat oven to 350"
+      },
+      {
+        "key": 0,
+        "ordinal": 2,
+        "description": "In a large bowl mix sugar, butter, eggs and bananas until thourghly combined, add flour and baking soda and mix thourghly. Fold in chopped nuts."
+      },
+      {
+        "key": 0,
+        "ordinal": 3,
+        "description": "Grease and flour a 9\" bread pan, pour in bread batter. Put pan in pre-heated oven and bake for about an hour until toothpick comes out clean."
+      },
+      {
+        "key": 0,
+        "ordinal": 4,
+        "description": "Remove from oven and cool in pan for 15 minutes, remove from pan and cool on a rack for another hour."
+      }
+    ],
+    "preparationMinutes": 20,
+    "cookingMinutes": 60,
+    "totalMinutes": 155,
+    "numberOfServings": 8,
+    "servingSize": "slice"
+  }
+]

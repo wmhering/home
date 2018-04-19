@@ -1,0 +1,34 @@
+{
+  "Items": [
+    {
+      "Quantity": 1,
+      "Description": "Cat Food",
+      "Purchased": false
+    },
+    {
+      "Quantity": 1,
+      "Description": "Algae Wafers",
+      "Purchased": false
+    },
+    {
+      "Quantity": 1,
+      "Description": "Shampoo",
+      "Purchased": false
+    },
+    {
+      "Quantity": 1,
+      "Description": "Algae Wafers",
+      "Purchased": false
+    },
+    {
+      "Quantity": 1,
+      "Description": "Algae Wafers",
+      "Purchased": false
+    },
+    {
+      "Quantity": 1,
+      "Description": "Algae Wafers",
+      "Purchased": false
+    }
+  ]
+}

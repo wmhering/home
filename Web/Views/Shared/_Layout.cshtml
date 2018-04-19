@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <environment include="Development">
+      <link rel="stylesheet" href="~/resources/styles/site.css" />
+    </environment>
+    <environment exclude="Development">
+      <link rel="stylesheet" href="~/resources/styles/site.min.css" />
+    </environment>
+  </head>
+  <body class="content-body">
+    <header class="content-head">
+      @Html.Partial("_Header")
+    </header>
+    <nav class="content-menu">
+      @Html.Partial("_Menu")
+    </nav>
+    <main class="content-main">
+      @RenderBody()
+    </main>
+    <aside class="content-side">
+      @RenderSection("Sidebar", required: false)
+    </aside>
+    <footer class="content-foot">
+        @Html.Partial("_Footer")
+    </footer>
+    <environment include="Development">
+      <script src="~/lib/jquery/dist/jquery.js"></script>
+      <script src="~/lib/materialize/dist/js/materialize.js"></script>
+    </environment>
+    <environment exclude="Development">
+      <script src="~/lib/jquery/dist/jquery.min.js"></script>
+      <script src="~/lib/materialize/dist/js/materialize.min.js"></script>
+    </environment>
+    @RenderSection("Scripts", required: false)
+  </body>
+</html>

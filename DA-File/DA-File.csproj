@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>Home.DA</AssemblyName>
+    <RootNamespace>Home.DA</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
+    <PackageReference Include="Ninject" Version="3.3.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BO\BO.csproj" />
+  </ItemGroup>
+
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="copy /y &quot;$(TargetPath)&quot; &quot;$(SolutionDir)Web\modules\$(TargetFileName)&quot;&#xD;&#xA;copy /y &quot;$(ProjectDir)*.json&quot; &quot;$(SolutionDir)/Web/wwwroot/data&quot;" />
+  </Target>
+
+</Project>

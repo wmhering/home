@@ -1,0 +1,38 @@
+﻿[
+  {
+    "description": "Oriental Stir Fry",
+    "prepared": false
+  },
+  {
+    "description": "Spaghetti",
+    "prepared": false
+  },
+  {
+    "description": "Salad w/Chicken Strips",
+    "prepared": false
+  },
+  {
+    "description": "Beef Broccoli Stir Fry",
+    "prepared": true
+  },
+  {
+    "description": "Pierogis",
+    "prepared": true
+  },
+  {
+    "description": "Pulled Pork",
+    "prepared": true
+  },
+  {
+    "description": "Tempeh & Vegetables w/Peanut Sauce",
+    "prepared": false
+  },
+  {
+    "description": "Chorizo & Sweet Potato Enchilad Casserole",
+    "prepared": true
+  },
+  {
+    "description": "Chorizo Black Bean Stew",
+    "prepared": false
+  }
+]
